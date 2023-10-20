@@ -1,0 +1,179 @@
+@font-face {
+
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/pt-sans-regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/pt-sans-bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+  background-color: #fbf7f4;
+}
+
+.navigation-link{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color:#242424;
+  background-color: #fbf7f4;
+}
+
+h1 .main-index{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #242424;
+  background-color: #fbf7f4;
+}
+
+p .main-index{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color:#242424;
+  background-color: #fbf7f4;
+}
+
+h2 .advantages{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color:#fbf7f4;
+  background-color: #82B3D3 ;
+}
+h2 p .advantages-text{
+  color:#242424;
+}
+
+p .advantages{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #fbf7f4;
+  background-color: #82B3D3 ;
+}
+
+
+h3 article{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #242424;
+  background-color: #fbf7f4;
+}
+
+p article{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #242424;
+  background-color: #fbf7f4;
+}
+
+h2 .hotels{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #242424;
+  background-color: #83B3D3;
+}
+
+p .hotels{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #242424;
+  background-color: #83B3D3;
+}
+
+p:first-child > .searching-hotels{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #242424;
+  background-color: #fbf7f4;
+}
+
+p:nth-child(2) > .searching-hotels{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #242424;
+  background-color: #fbf7f4;
+}
+
+button > .searching-hotels{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: #fbf7f4;
+  background-color: #756157;
+}
+
+p:first-child >.subscribe{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #fbf7f4;
+  background-color: #83B3D3;
+}
+
+p:nth-child(2) >.subscribe{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #fbf7f4;
+  background-color: #83B3D3;
+}
+
+a:first-child > footer{
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #242424;
+  background-color: #fbf7f4;
+}
+
+img > .main-index{
+  background-color: #82B3D3;
+  background-image: url("../images/index-background.jpg"), url("../images/Vector-zigzag.svg");
+  width:1200px;
+}
+
+.button > .navigation{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #fbf7f4;
+  background-color:  #756157;
+}
