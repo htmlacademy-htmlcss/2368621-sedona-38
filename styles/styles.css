@@ -3,7 +3,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/pt-sans-regular.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -12,7 +12,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/pt-sans-bold.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -35,7 +35,11 @@ body {
 
 
 .main-container {
+  display: flex;
   flex-grow: 1;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .navigation{
@@ -45,27 +49,40 @@ margin: 0 auto;
 }
 
 .navigation-list {
-  margin: 0;
-  padding: 0;
+  display:flex;
+  flex-direction: row;
+  margin: 5px;
+  margin-top:auto;
+  padding: 5px;
   width: 339px;
+  list-style: none;
 }
 
 .page-container {
-  width: 940px;
+  width: 1200px;
   margin: 0 auto;
 }
+
 .navigation-user {
+  display:flex;
+  flex-direction: row;
+  margin: 5px;
+  margin-top:auto;
+  padding: 5px;
   max-width: 268px;
   margin-left: auto;
+  list-style: none;
 }
 
 .navigation-link{
+  padding:15px;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   color:#242424;
   background-color: #FFFFFF;
 }
+
 
 .title{
   font-weight: 700;
@@ -115,6 +132,37 @@ margin: 0 auto;
   color:#242424;
 }
 
+.advantages-list{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+.advatages-item-text{
+  display:flex;
+  width:400px;
+  height:385px;
+  flex-wrap:wrap;
+  align-content:stretch;
+}
+
+.advantages-item{
+  display:flex;
+  width:400px;
+  min-height:385px;
+  margin:0 auto;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-content:stretch;
+}
+
+.about-list{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  width:400px;
+  min-height:385px;
+}
 
 .invitation-title{
   font-weight: 700;
@@ -252,7 +300,7 @@ line-height:78px;
   background-color: #82B3D3;
 }
 
-.main-image{
+.main-image-catalog{
   background-image: url("../images/main-image-catalog.jpg");
   width: 1200px;
   background-color: #82B3D3;
@@ -278,3 +326,37 @@ background-color:#82B3D3;
   background-image: url("../images/subscribe.png");
   width: 1200px;
 }
+
+footer{
+  display:flex;
+  flex-direction: row;
+  width: 1200px;
+  margin: 0 auto;
+  color:#242424;
+  background-color: #FFFFFF;
+}
+
+.footer-information{
+width:1060px;
+}
+
+.social-media{
+ display: flex;
+ width:142px;
+ margin-right: auto;
+ margin-top:auto;
+ list-style: none;
+ }
+
+ .number{
+  display: flex;
+ width:331px;
+ margin-right: auto;
+ margin-top:auto;
+ }
+
+ .logo-footer{
+  display: flex;
+  width:115px;
+  margin-top:auto;
+ }
