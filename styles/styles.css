@@ -83,7 +83,6 @@ margin: 0 auto;
   background-color: #FFFFFF;
 }
 
-
 .title{
   font-weight: 700;
   font-size: 30px;
@@ -102,21 +101,16 @@ margin: 0 auto;
   background-color: #FFFFFF;
 }
 
-.advantages-list {
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
 .advantages-title{
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
+  text-transform:uppercase;
+}
+.advantages-color-container{
   color:#FFFFFF;
-  background-color: #82B3D3 ;
+  background-color: #82B3D3;
 }
 
 .advantages-paragraph{
@@ -124,53 +118,50 @@ margin: 0 auto;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-  color: #FFFFFF;
-  background-color: #82B3D3 ;
 }
 
-.advantages-text{
-  color:#242424;
-}
-
-.advantages-list{
+.main-advantages, .about-sedona{
+  width: 1200px;
+  margin: 0 auto;
   display: flex;
-  flex-direction:row;
-  justify-content: center;
-}
+  }
 
-.advatages-item-text{
+.main-advantages{
+  flex-wrap: wrap;
+  }
+
+.advantages-container, .about-list{
   display:flex;
-  width:400px;
-  height:385px;
-  flex-wrap:wrap;
-  align-content:stretch;
+  list-style: none;
 }
 
-.advantages-item{
-  display:flex;
-  width:400px;
-  min-height:385px;
-  margin:0 auto;
-  flex-wrap:wrap;
-  justify-content:center;
-  align-content:stretch;
-}
 
-.about-list{
-  display:flex;
-  flex-direction:row;
-  justify-content: center;
-  width:400px;
-  min-height:385px;
-}
+.advantages-card, .about-item{
+  width:  230px;
+  padding: 103px 85px;
+  }
 
-.invitation-title{
+  .about-item:nth-child(1), .about-item:nth-child(3), .advantages-card:nth-child(2), .advantages-card:nth-child(4){
+    background-color: rgba(131, 179, 211, 0.12);
+  }
+
+  .advantages-card:nth-child(3){
+    background-color: rgba(131, 179, 211, 0.2);
+  }
+
+  .advantages-card:nth-child(1), .advantages-card:nth-child(5){
+    background-color: rgba(130, 179, 211, 1);
+  }
+
+
+  .invitation-title{
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
   color: #242424;
   background-color: #FFFFFF;
+  text-transform: uppercase;
 }
 
 .invitation-paragraph{
@@ -188,7 +179,7 @@ margin: 0 auto;
   line-height: 28px;
   text-align: center;
   color: #242424;
-  background-color: #83B3D3;
+  text-transform: uppercase;
 }
 
 .about-paragraph{
@@ -197,7 +188,7 @@ margin: 0 auto;
   line-height: 21px;
   text-align: center;
   color: #242424;
-  background-color: #83B3D3;
+  margin: 0;
 }
 
 .searching-hotels-question{
@@ -207,6 +198,7 @@ margin: 0 auto;
   text-align: center;
   color: #242424;
   background-color: #FFFFFF;
+  text-transform: uppercase;
 }
 
 .searching-hotels-call{
@@ -233,7 +225,7 @@ margin: 0 auto;
   line-height: 36px;
   text-align: center;
   color: #FFFFFF;
-  background-color: #83B3D3;
+  text-transform: uppercase;
 }
 
 .subscribe-paragraph{
@@ -242,7 +234,6 @@ margin: 0 auto;
   line-height: 26px;
   text-align: center;
   color: #FFFFFF;
-  background-color: #83B3D3;
 }
 
 .social-media{
@@ -269,22 +260,25 @@ margin: 0 auto;
   background-color:  #756157;
 }
 
-.food{
-  background-image: url("../images/food.svg");
-  width:74px;
-  height:70px;
-}
-
 .home{
   background-image: url("../images/home.svg");
   width:75px;
   height:72px;
+  margin:0 auto;
+}
+
+.food{
+  background-image: url("../images/food.svg");
+  width:74px;
+  height:70px;
+  margin:0 auto;
 }
 
 .presents{
   background-image: url("../images/present.svg");
   width:64px;
   height:76px;
+  margin:0 auto;
 }
 
 .inner-header-title{
