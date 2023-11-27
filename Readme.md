@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Jiguliova Marina](https://up.htmlacademy.ru/htmlcss/38/user/2368621).
-* Наставник: `Оксана Вайнруб`(https://htmlacademy.ru/profile/id166797).
+* Наставник: `Владислав Ермолаев`(https://htmlacademy.ru/profile/id128353).
 
 ---
 
